@@ -25,6 +25,6 @@
       - name: deploy app
         git: > 
           repo=https://github.com/schoolofdevops/html-sample-app.git
-          dest=/usr/share/nginx/html/app
+          dest=/var/www/html/
 
 ...
